@@ -5,7 +5,7 @@ Docker image for Java automated UI tests.
 Includes:
 
 * JDK 8
-* Maven 3.6.2
+* Maven 3.6.3
 * Firefox 70
 * Geckodriver 0.26.0
 
