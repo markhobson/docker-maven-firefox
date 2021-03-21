@@ -6,7 +6,7 @@ Includes:
 
 * JDK 8
 * Maven 3.6.3
-* Firefox 82
+* Firefox 86
 * Geckodriver 0.27.0
 
 Available on [Docker Hub](https://hub.docker.com/r/markhobson/maven-firefox/).
