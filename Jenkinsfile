@@ -10,7 +10,7 @@ pipeline {
     stage('Git Checkout') {
       steps {
         // Get some code from a GitHub repository
-        git 'https://github.com/ualjjcanada/docker-maven-chrome.git'
+        git 'https://github.com/ualjjcanada/docker-maven-firefox.git'
       }
     }
 
