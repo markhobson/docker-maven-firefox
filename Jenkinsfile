@@ -10,11 +10,11 @@ pipeline {
     stage('Git Checkout') {
       steps {
         // Get some code from a GitHub repository
-        git 'https://github.com/ualjjcanada/docker-maven-firefox.git'
+        git 'https://github.com/markhobson/docker-maven-firefox.git'
       }
     }
 
-    stage('Chrome Tests') {
+    stage('Firefox Tests') {
       steps {
         // Run Maven on docker agent.
         sh '''
