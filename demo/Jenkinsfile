@@ -18,6 +18,7 @@ pipeline {
       steps {
         // Run Maven on docker agent.
         sh '''
+          cd demo
           mvn clean verify
         '''
       }
