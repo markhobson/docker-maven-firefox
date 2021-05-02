@@ -1,8 +1,8 @@
 pipeline {
   agent {
     docker {
-      image 'markhobson/maven-firefox'
-      args '-v "$PWD":/usr/src -w /usr/src'
+      image 'ualjjcanada/maven-firefox'
+      args '-v "$HOME/.m2":/root/.m2 -v "$PWD":/usr/src -w /usr/src'
     }
   }
 
