@@ -14,7 +14,7 @@ RUN apt-get update -qqy \
 
 # Geckodriver
 
-ARG GECKODRIVER_VERSION=v0.29.0
+ARG GECKODRIVER_VERSION=v0.31.0
 RUN wget -q -O /tmp/geckodriver.tar.gz https://github.com/mozilla/geckodriver/releases/download/$GECKODRIVER_VERSION/geckodriver-$GECKODRIVER_VERSION-linux64.tar.gz \
 	&& tar xzf /tmp/geckodriver.tar.gz -C /opt \
 	&& rm /tmp/geckodriver.tar.gz \
