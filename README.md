@@ -5,9 +5,9 @@ Docker image for Java automated UI tests.
 Includes:
 
 * JDK 8
-* Maven 3.6.3
-* Firefox 86
-* Geckodriver 0.29.0
+* Maven 3.8.6
+* Firefox 102
+* Geckodriver 0.31.0
 
 Available on [Docker Hub](https://hub.docker.com/r/markhobson/maven-firefox/).
 
