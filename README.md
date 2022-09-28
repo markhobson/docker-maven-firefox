@@ -1,15 +1,23 @@
-# markhobson/maven-firefox
+# fabioformosaddg/maven-firefox
 
 Docker image for Java automated UI tests.
 
 Includes:
 
-* JDK 8
-* Maven 3.8.6
+* JDK 8/17
+* Maven 3.8.5/3.8.6
 * Firefox 102
 * Geckodriver 0.31.0
 
-Available on [Docker Hub](https://hub.docker.com/r/markhobson/maven-firefox/).
+Available on [Docker Hub](https://hub.docker.com/r/fabioformosaddg/maven-firefox/).
+
+## Tags
+
+The following Docker tags are available:
+
+* `jdk-8` [(jdk-8/Dockerfile)](jdk-8/Dockerfile)
+* `jdk-17` [(jdk-17/Dockerfile)](jdk-17/Dockerfile)
+
 
 ## Demo
 
