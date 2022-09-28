@@ -1,4 +1,4 @@
-# fabioformosaddg/maven-firefox
+# markhobson/maven-firefox
 
 Docker image for Java automated UI tests.
 
@@ -9,7 +9,7 @@ Includes:
 * Firefox 102
 * Geckodriver 0.31.0
 
-Available on [Docker Hub](https://hub.docker.com/r/fabioformosaddg/maven-firefox/).
+Available on [Docker Hub](https://hub.docker.com/r/markhobson/maven-firefox/).
 
 ## Tags
 
