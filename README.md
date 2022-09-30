@@ -16,7 +16,7 @@ Available on [Docker Hub](https://hub.docker.com/r/markhobson/maven-firefox/).
 The following Docker tags are available:
 
 * `jdk-8` [(jdk-8/Dockerfile)](jdk-8/Dockerfile)
-* `jdk-17` [(jdk-17/Dockerfile)](jdk-17/Dockerfile)
+* `jdk-17`, `latest` [(jdk-17/Dockerfile)](jdk-17/Dockerfile)
 
 ## Demo
 
